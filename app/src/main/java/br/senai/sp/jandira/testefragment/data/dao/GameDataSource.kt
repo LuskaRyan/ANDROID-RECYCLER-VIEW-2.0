@@ -59,6 +59,18 @@ class GameDataSource {
                 ))
             )
 
+            games.add(Game(
+                3,
+                "Samurai Shodown II",
+                context.getDrawable(R.drawable.samurai)!!,
+                "batizou-o de Shin Samurai Spirits: Haohmaru jigokuhen, que no ocidente ficou conhecido simplesmente como Samurai Shodown II, é um jogo criado pela SNK, continuação de Samurai Shodown. Com uma direção de arte primorosa e excelente efeitos sonoros e visuais. Marcou a estréia de 4 personagens",
+                4.5f,
+                listOf(
+                    Console(1, "PlayStation 3", "Sony", "2009-11-21"),
+                    Console(2, "Xbox 360", "Microsoft", "2008-12-12")
+                ))
+            )
+
             return games
 
         }

@@ -17,7 +17,7 @@
             android:id="@+id/image_game"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/rainbow"
+            android:src="@drawable/mk"
             android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:id="@+id/text_view_game_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rainbow Six Siege"
+            android:text="Mortal Kombat 11"
             android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintTop_toBottomOf="@id/image_game"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Tom Clancy's Rainbow Six Siege é um videojogo do género first person shooter produzido pela Ubisoft Montreal."
+            android:text="Mortal Kombat 11 é um jogo eletrônico de luta desenvolvido pela NetherRealm Studios e publicado pela Warner Bros. Interactive Entertainment. É a décima primeira edição principal da série de jogos eletrônicos de luta, Mortal Kombat, e uma continuação direta de Mortal Kombat X."
             app:layout_constraintTop_toBottomOf="@id/chip_group_consoles"/>
 
         <RatingBar
@@ -80,7 +80,7 @@
             app:layout_constraintTop_toBottomOf="@id/text_view_game_description"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/Widget.AppCompat.RatingBar.Indicator"
-            android:rating="3.5"
+            android:rating="5"
             android:stepSize="0.5"
             android:scaleX=".8"
             android:scaleY=".8"
