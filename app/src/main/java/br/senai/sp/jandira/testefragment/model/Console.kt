@@ -1,8 +1,10 @@
 package br.senai.sp.jandira.testefragment.model
 
-data class Console(
+data class ListOfConsoles(
     var id: Long,
     var consoleName: String,
-    var consoleMaker: String,
-    var consoleReleaseDate: String
-)
+    var consoleDescription: String,
+    var consoleImage: String
+) {
+
+}
